@@ -27,7 +27,8 @@ class Student
             int ch;
             System.out.println("1.present\n2.absent\n");
             int present=0;int absent=0;
-            for(int j = 0;j<number_day;j++)
+            int j =0;
+            for(;j<number_day;j++)
             {
                 System.out.println("enter the choice:");
                 ch = scan.nextInt();
